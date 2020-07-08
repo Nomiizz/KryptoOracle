@@ -1,0 +1,9 @@
+jupyter
+Twython
+pandas
+matplotlib
+sklearn
+tqdm
+xgboost
+vaderSentiment
+findspark
