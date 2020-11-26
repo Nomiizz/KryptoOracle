@@ -16,3 +16,18 @@ Lastly, the second half of notebook 6 must be executed. This will launch the pre
 The 'validation_script.py' was run for a few weeks to accumulate the twitter data for bootstrapping the model.
 
 We give acknowledgement to the Github repo: https://github.com/Drabble/TwitterSentimentAndCryptocurrencies. It helped us obtain starter code which we were able to extend further to create this project.
+
+## Citation
+If you find this work useful, please cite:
+
+```
+@INPROCEEDINGS{9006554,
+  author={S. {Mohapatra} and N. {Ahmed} and P. {Alencar}},
+  booktitle={2019 IEEE International Conference on Big Data (Big Data)}, 
+  title={KryptoOracle: A Real-Time Cryptocurrency Price Prediction Platform Using Twitter Sentiments}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={5544-5551},
+  doi={10.1109/BigData47090.2019.9006554}}
+```
