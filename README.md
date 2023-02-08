@@ -6,7 +6,7 @@ KryptoOracle, a novel real-time and adaptive cryptocurrency price prediction pla
 
 The jupyter notebooks (1-4) must be executed in order. They obtain historical twitter data, perform preprocessing to clean it and perform sentiment analysis using VADER to obtain a compound score. Further, they obtain the cryptocurrency price data. Both datas are moved to seperate csv files.
 
-Next the first half of notebook 6 must be executed. This will load the data, process it to obtain features, setup the Spark context and load the processed data into Spark. It will also bootstrap the ML model by using the processed data. This will make the model ready for making future predictions.
+Next the first half of notebook 5 must be executed until ``Run Twitter Stream Now``. This will load the data, process it to obtain features, setup the Spark context and load the processed data into Spark. It will also bootstrap the ML model by using the processed data. This will make the model ready for making future predictions.
 
 Next notebook 6 must be executed. This will launch the Twitter streamer that will fetch the real-time tweets and obtain sentiment scores.
 
